@@ -7,27 +7,32 @@
     <title>Calculadora</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload="init()">
+    <table class="calculadora"></table>
     <div id="calculadora">
-        <div id="resultado">0</div>
-        <div id="actual">0</div>
+        <div id="resultado"></div>
         <div id="botones" class="grid-container">
-            <button class="botonCalc" id="botonUno">1</button>
-            <button class="botonCalc" id="botonDos">2</button>
-            <button class="botonCalc" id="botonTres">3</button>
-            <button class="botonOp" id="botonSuma">+</button>
-            <button class="botonCalc" id="botonCuatro">4</button>
-            <button class="botonCalc" id="botonCinco">5</button>
-            <button class="botonCalc" id="botonSeis">6</button>
-            <button class="botonOp" id="botonResta">-</button>
             <button class="botonCalc" id="botonSiete">7</button>
             <button class="botonCalc" id="botonOcho">8</button>
             <button class="botonCalc" id="botonNueve">9</button>
             <button class="botonOp" id="botonDiv">/</button>
-            <div></div>
-            <button class="botonCalc" id="botonCero">0</button>
-            <div></div>
+            <button class="botonCalc" id="botonCuatro">4</button>
+            <button class="botonCalc" id="botonCinco">5</button>
+            <button class="botonCalc" id="botonSeis">6</button>
             <button class="botonOp" id="botonMult">*</button>
+            <button class="botonCalc" id="botonUno">1</button>
+            <button class="botonCalc" id="botonDos">2</button>
+            <button class="botonCalc" id="botonTres">3</button>
+            <button class="botonOp" id="botonResta">-</button>
+            <button class="botonOp" id="botonReset">C</button>
+            <button class="botonCalc" id="botonCero">0</button>
+            <button class="botonOp" id="botonIgual">=</button>
+            <button class="botonOp" id="botonSuma">+</button>
+            <div></div>
+            <div></div>
+            <div></div>
+            <button class="botonOp" id="botonRetroceder">←</button>
+
         </div>
     </div>
     <script type="text/javascript" src="index.js"></script>
